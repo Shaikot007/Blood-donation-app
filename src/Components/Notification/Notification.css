@@ -1,0 +1,366 @@
+.Notification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.NotificationHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 10%;
+  width: 100%;
+}
+
+.NotificationReturn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.NotificationReturnArrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 10%;
+}
+
+.NotificationLeftArrow {
+  color: #dc3545;
+}
+
+.NotificationLeftArrow:hover {
+  cursor: pointer;
+}
+
+.NotificationReturnText {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 1% 0% 1%;
+  height: 100%;
+  width: auto;
+}
+
+.NotificationReturnText p {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.NotificationProfileBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.NotificationUserName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 30%;
+}
+
+.NotificationName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 50%;
+  width: 100%;
+}
+
+.NotificationName p {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.NotificationUserRate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 50%;
+  width: 100%;
+}
+
+.NotificationUserRate p {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+.NotificationUserImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 10%;
+}
+
+.NotificationUserImage img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.NotificationUserProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 5%;
+}
+
+.NotificationIcon {
+  color: #dc3545;
+}
+
+.NotificationIcon:hover {
+  cursor: pointer;
+}
+
+.NotificationBody {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 90%;
+  width: 100%;
+}
+
+.NotificationBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+  cursor: pointer;
+}
+
+.AlertBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 0% 1% 0%;
+  padding: 0%;
+  height: 10%;
+  width: 80%;
+  border: lightgrey solid 1px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+.NotificationAlert {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 60%;
+  width: 95%;
+}
+
+.NotificationImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 1% 0% 1%;
+  padding: 0%;
+  height: 100%;
+  width: 10%;
+  border: lightgrey solid 1px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+.NotificationImage p {
+  margin-top: 1rem;
+  font-size: 15px;
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.NotificationText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0%;
+  padding: 2%;
+  height: 100%;
+  width: 90%;
+  text-align: justify;
+  line-height: 1;
+}
+
+.NotificationText p {
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+.NotificationTime {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0%;
+  padding: 0%;
+  height: 20%;
+  width: 95%;
+}
+
+.NotificationTime p {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+.AlertBoxPastDay {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 1% 0% 1% 0%;
+  padding: 0%;
+  height: 5%;
+  width: 80%;
+}
+
+.AlertBoxPastDay p {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.HistoryBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.HistoryHeadline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 10%;
+  width: 100%;
+}
+
+.HistoryHeadline p {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .NotificationReturn { width: 35%; }
+  .NotificationReturnArrow { width: 20%; }
+  .NotificationReturnText { width: 80%; }
+  .NotificationReturnText p { font-size: 12px; }
+  .NotificationProfileBar { width: 35%; }
+  .NotificationUserName { height: 50px; width: 100%; }
+  .NotificationName p { font-size: 12px; }
+  .NotificationUserRate p { font-size: 10px; }
+  .NotificationUserImage { width: 20%; }
+  .NotificationUserProfile { width: 10%; }
+  .NotificationBody { flex-direction: column; }
+  .NotificationBox { width: 100%; }
+  .HistoryBox { width: 100%; }
+  .NotificationImage { width: 20%; }
+  .NotificationText { width: 80%; }
+  .NotificationIcon { font-size: 18px; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .NotificationReturn { width: 40%; }
+  .NotificationReturnArrow { width: 20%; }
+  .NotificationReturnText { width: 80%; }
+  .NotificationReturnText p { font-size: 14px; }
+  .NotificationProfileBar { width: 35%; }
+  .NotificationUserName { height: 50px; width: 100%; }
+  .NotificationName p { font-size: 14px; }
+  .NotificationUserRate p { font-size: 12px; }
+  .NotificationUserImage { width: 20%; }
+  .NotificationUserProfile { width: 5%; }
+  .NotificationBody { flex-direction: column; }
+  .NotificationBox { width: 100%; }
+  .HistoryBox { width: 100%; }
+  .NotificationImage { width: 20%; }
+  .NotificationText { width: 80%; }
+  .NotificationIcon { font-size: 18px; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .NotificationReturn { width: 40%; }
+  .NotificationReturnArrow { width: 20%; }
+  .NotificationReturnText { width: 80%; }
+  .NotificationReturnText p { font-size: 14px; }
+  .NotificationProfileBar { width: 40%; }
+  .NotificationUserName { height: 50px; width: 100%; }
+  .NotificationName p { font-size: 14px; }
+  .NotificationUserRate p { font-size: 12px; }
+  .NotificationUserImage { width: 15%; }
+  .NotificationUserImage img { height: 45px; width: 45px; }
+  .NotificationUserProfile { width: 5%; }
+  .NotificationBox { width: 100%; overflow-y: auto; }
+  .HistoryBox { width: 100%; overflow-y: auto; }
+  .AlertBox { height: 12%; width: 95%; }
+  .NotificationImage { width: 20%; }
+  .NotificationText { width: 80%; }
+  .NotificationText p { font-size: 10px; }
+  .NotificationIcon { font-size: 18px; }
+  .NotificationTime p { font-size: 10px; }
+}

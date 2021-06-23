@@ -1,0 +1,173 @@
+.Sidebar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.SidebarMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 20%;
+}
+
+.BloodDonationLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 10%;
+  width: 100%;
+}
+
+.BloodDonationLogo img {
+  height: 100%;
+  width: 50%;
+}
+
+.Menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 10%;
+  width: 100%;
+}
+
+.Menu a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+  border: white solid 1px;
+}
+
+.Menu a:hover {
+  text-decoration: none;
+}
+
+.Menu a:focus {
+  text-decoration: none;
+}
+
+.Menu Button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+  border: white solid 1px;
+}
+
+.Menu Button:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.Menu Button:focus {
+  background-color: #dc3545;
+  color: white;
+}
+
+.Icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 20%;
+}
+
+.IconName {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 100%;
+  width: 80%;
+}
+
+.IconName p {
+  margin-top: 1rem;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.MenuImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 40%;
+  width: 100%;
+}
+
+.MenuImage img {
+  margin: 0%;
+  padding: 0%;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.SidebarMenuPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 80%;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .Sidebar { flex-direction: column; height: auto; }
+  .SidebarMenu { width: 100%; }
+  .IconName p { font-size: 12px; }
+  .MenuImage { margin: 5% 0% 15% 0%; }
+  .SidebarMenuPage { width: 100%; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .Sidebar { flex-direction: column; height: auto;}
+  .SidebarMenu { width: 100%; }
+  .IconName p { font-size: 12px; }
+  .MenuImage { margin: 5% 0% 15% 0%; }
+  .SidebarMenuPage { width: 100%; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .Sidebar { flex-direction: row; }
+  .SidebarMenu { width: 25%; }
+  .SidebarMenuPage { width: 75%; }
+}

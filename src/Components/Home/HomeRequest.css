@@ -1,0 +1,727 @@
+.HomeRequest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.HomeRequestHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 10%;
+  width: 100%;
+}
+
+.HomeRequestReturn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.HomeRequestReturnArrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 10%;
+}
+
+.HomeRequestLeftArrow {
+  color: #dc3545;
+}
+
+.HomeRequestLeftArrow:hover {
+  cursor: pointer;
+}
+
+.HomeRequestReturnText {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 1% 0% 1%;
+  height: 100%;
+  width: auto;
+}
+
+.HomeRequestReturnText p {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.HomeRequestProfileBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.HomeRequestUserName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 30%;
+}
+
+.RequestName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 50%;
+  width: 100%;
+}
+
+.RequestName p {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.HomeRequestUserRate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 50%;
+  width: 100%;
+}
+
+.HomeRequestUserRate p {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+.HomeRequestUserImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 10%;
+}
+
+.HomeRequestUserImage img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.HomeRequestUserProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 5%;
+}
+
+.HomeRequestEllipsisV {
+  color: #dc3545;
+}
+
+.HomeRequestEllipsisV:hover {
+  cursor: pointer;
+}
+
+.HomeRequestBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 90%;
+  width: 100%;
+}
+
+.MyRequest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 30%;
+}
+
+.HomeRequestMenuIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 15%;
+  width: 100%;
+}
+
+.HomeRequestMenuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 2% 0% 2%;
+  padding: 0%;
+  height: 100%;
+  width: 20%;
+}
+
+.HomeRequestImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0% 2% 0% 2%;
+  padding: 0%;
+  height: 60%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.HomeRequestImage:hover {
+  cursor: pointer;
+}
+
+.HomeRequestImage img {
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.HomeRequestCount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0%;
+  padding: 0%;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.HomeRequestCount p {
+  margin-top: 1rem;
+  font-size: 10px;
+  color: white;
+}
+
+.HomeRequestName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 1% 0% 1% 0%;
+  height: 40%;
+  width: 100%;
+}
+
+.HomeRequestName p {
+  margin-top: 1rem;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.HomeUrgentRequest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 40%;
+  width: 100%;
+}
+
+.HomeUrgentRequestHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 15%;
+  width: 100%;
+}
+
+.HomeUrgentRequestHeader h6 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.UrgentRequestSchedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 0% 1% 0%;
+  padding: 0% 5% 0% 5%;
+  height: 40%;
+  width: 90%;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  box-shadow: 1Px 1Px 1Px 1Px lightgrey;
+}
+
+.ScheduleUpper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 40%;
+  width: 100%;
+}
+
+.ScheduleBoxLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.ScheduleBoxLeft h6 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  line-height: 1;
+}
+
+.ScheduleBoxLeft p {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-size: 10px;
+  line-height: 2;
+}
+
+.ScheduleBoxRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.ScheduleBoxRight p {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.ScheduleBoxUpperRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0%;
+  padding: 0%;
+  height: 50%;
+  width: 100%;
+}
+
+.ScheduleBoxRight Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem;
+  padding: 0rem;
+  height: 100%;
+  width: 50%;
+  font-size: 8px;
+  text-align: center;
+  line-height: 1;
+  background-color: #dc3545;
+  border: solid 1px #dc3545;
+  border-radius: 10px;
+}
+
+.ScheduleBoxRight Button:hover {
+  background-color: #dc3545;
+  border: solid 1px #dc3545;
+}
+
+.ScheduleBoxRight Button:focus {
+  background-color: #dc3545;
+  border: solid 1px #dc3545;
+}
+
+.ScheduleIcon {
+  margin: 0% 0% 0% 5%;
+  font-size: 15px;
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.ScheduleBoxLowerRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.ScheduleBoxLowerRight p {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-size: 10px;
+  line-height: 2;
+}
+
+.ScheduleLower {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 40%;
+  width: 100%;
+}
+
+.PublishRequest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 70%;
+}
+
+.HomeBloodRequest {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 60%;
+  width: 100%;
+}
+
+.RequestBlood {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 60%;
+}
+
+.RequestBloodText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 10%;
+  width: 100%;
+}
+
+.RequestBloodText h6 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.RequestBloodForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 90%;
+  width: 100%;
+}
+
+.RequestBloodForm Form {
+  height: 80%;
+  width: 80%;
+}
+
+.RequestBloodForm Label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.RequestBloodForm Button {
+  margin: 0%;
+  padding: 0%;
+  height: 15%;
+  width: 100%;
+  color: black;
+  background-color: white;
+  border: solid 1px lightgrey;
+}
+
+.RequestBloodForm Button:hover {
+  background-color: #dc3545;
+  border: solid 1px #dc3545;
+}
+
+.RequestBloodForm Button:focus {
+  background-color: #dc3545;
+  border: solid 1px #dc3545;
+}
+
+.RecentHistory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 40%;
+}
+
+.RecentHistoryText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 10%;
+  width: 100%;
+}
+
+.RecentHistoryText h6 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.RecentHistoryBox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 90%;
+  width: 100%;
+}
+
+.HistoryBoxItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 5%;
+  padding: 5% 3% 5% 3%;
+  height: 35%;
+  width: 40%;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+.HistoryBoxItem Button {
+  margin: 0%;
+  padding: 0%;
+  height: 50%;
+  width: 30%;
+  border-radius: 50%;
+  background-color: #dc3545;
+  border: solid 1px #dc3545;
+}
+
+.HistoryBoxItem Button:hover {
+  background-color: #dc3545;
+  border: solid 1px #dc3545;
+}
+
+.HistoryBoxItem Button:focus {
+  background-color: #dc3545;
+  border: solid 1px #dc3545;
+}
+
+.HistoryBoxItem h6 {
+  margin-top: 0.5rem;
+}
+
+.HistoryBoxItem p {
+  margin-top: 0rem;
+  font-size: 12px;
+}
+
+.HomeRecentRequest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 40%;
+  width: 100%;
+}
+
+.HomeRecentRequestText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 10%;
+  width: 100%;
+}
+
+.HomeRecentRequestText h6 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.RecentRequestBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 90%;
+  width: 100%;
+}
+
+.RecentRequestSchedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 1% 1% 1%;
+  padding: 0% 5% 0% 5%;
+  height: 40%;
+  width: 45%;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  box-shadow: 1Px 1Px 1Px 1Px lightgrey;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .HomeRequestReturn { width: 35%; }
+  .HomeRequestReturnArrow { width: 20%; }
+  .HomeRequestReturnText { width: 80%; }
+  .HomeRequestReturnText p { font-size: 12px; }
+  .HomeRequestProfileBar { width: 35%; }
+  .HomeRequestUserName { height: 50px; width: 100%; }
+  .HomeRequestName p { font-size: 12px; }
+  .HomeRequestUserRate p { font-size: 10px; }
+  .HomeRequestUserImage { width: 20%; }
+  .HomeRequestUserProfile { width: 10%; }
+  .HomeRequestBox { flex-direction: column; }
+  .MyRequest { width: 100%; }
+  .UrgentRequestSchedule { width: 98%; }
+  .PublishRequest { width: 100%; }
+  .HomeBloodRequest { flex-direction: column; }
+  .RequestBlood { width: 100%; }
+  .RecentHistory { width: 100%; }
+  .RecentRequestBox { flex-direction: column; }
+  .RecentRequestSchedule { margin: 5% 0% 5% 0%; width: 100%; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .HomeRequestReturn { width: 35%; }
+  .HomeRequestReturnArrow { width: 20%; }
+  .HomeRequestReturnText { width: 80%; }
+  .HomeRequestReturnText p { font-size: 12px; }
+  .HomeRequestProfileBar { width: 35%; }
+  .HomeRequestUserName { height: 50px; width: 100%; }
+  .HomeRequestName p { font-size: 12px; }
+  .HomeRequestUserRate p { font-size: 10px; }
+  .HomeRequestUserImage { width: 20%; }
+  .HomeRequestUserProfile { width: 10%; }
+  .HomeRequestBox { flex-direction: column; }
+  .MyRequest { width: 100%; }
+  .UrgentRequestSchedule { width: 98%; }
+  .PublishRequest { width: 100%; }
+  .HomeBloodRequest { flex-direction: column; }
+  .RequestBlood { width: 100%; }
+  .RecentHistory { width: 100%; }
+  .RecentRequestBox { flex-direction: column; }
+  .RecentRequestSchedule { margin: 5% 0% 5% 0%; width: 100%; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .HomeRequestReturn { width: 40%; }
+  .HomeRequestReturnArrow { width: 20%; }
+  .HomeRequestReturnText { width: 80%; }
+  .HomeRequestReturnText p { font-size: 12px; }
+  .HomeRequestProfileBar { width: 40%; }
+  .HomeRequestUserName { height: 50px; width: 100%; }
+  .HomeRequestName p { font-size: 12px; }
+  .HomeRequestUserRate p { font-size: 10px; }
+  .HomeRequestUserImage { width: 15%; }
+  .HomeRequestUserProfile { width: 5%; }
+  .MyRequest { width: 100%; }
+  .UrgentRequestSchedule { width: 98%; }
+  .ScheduleBoxLeft p { line-height: 1; }
+  .ScheduleBoxLowerRight p { line-height: 1; }
+  .PublishRequest { width: 100%; }
+  .RequestBlood { width: 100%; }
+  .RequestBloodForm { overflow-y: auto; }
+  .RecentHistory { width: 100%; }
+  .RecentHistoryBox { overflow-y: auto; }
+  .HistoryBoxItem { height: 100px; width: 80%; }
+  .RecentRequestBox { overflow-y: auto; }
+  .RecentRequestSchedule { margin: 5% 0% 5% 0%; width: 100%; }
+}

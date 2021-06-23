@@ -1,0 +1,566 @@
+.HomeCampaign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.HomeCampaignHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 10%;
+  width: 100%;
+}
+
+.HomeCampaignBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.HomeCampaignBoxText {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 1% 0% 1%;
+  height: 100%;
+  width: auto;
+}
+
+.HomeCampaignBoxText p {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.SwitchBoxText {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 1% 0% 4%;
+  height: 100%;
+  width: auto;
+}
+
+.SwitchBoxText p {
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+.HomeCampaignSwitch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 1% 0% 1%;
+  height: 100%;
+  width: 10%;
+}
+
+.HomeCampaignSwitch label {
+  display: flex;
+  margin: 0%;
+  cursor: pointer;
+}
+
+.custom-switch .custom-control-input:checked~.custom-control-label::before{
+  background-color:#dc3545;
+}
+
+.HomeCampaignProfileBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.HomeCampaignUserName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 30%;
+}
+
+.HomeCampaignName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 50%;
+  width: 100%;
+}
+
+.HomeCampaignName p {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.HomeCampaignUserRate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 50%;
+  width: 100%;
+}
+
+.HomeCampaignUserRate p {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+.HomeCampaignUserImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 10%;
+}
+
+.HomeCampaignUserImage img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.HomeCampaignUserProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 5%;
+}
+
+.HomeCampaignEllipsisV {
+  color: #dc3545;
+}
+
+.HomeCampaignEllipsisV:hover {
+  cursor: pointer;
+}
+
+.Campaign {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 30%;
+  width: 100%;
+}
+
+.BloodCampaign {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0% 2% 0% 2%;
+  padding: 0%;
+  height: 80%;
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+  z-index: 0;
+}
+
+.Chevron-circle-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 100%;
+  width: 5%;
+  color: #dc3545;
+}
+
+.Chevron-circle-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 100%;
+  width: 5%;
+  color: #dc3545;
+}
+
+.Chevron-circle:hover {
+  cursor: pointer;
+}
+
+.BloodCampaign img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  z-index: 2;
+  opacity: 0.5;
+}
+
+.BloodCampaignColor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: absolute;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 100%;
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+  background-image: linear-gradient(0deg, black, white);
+  z-index: 1;
+}
+
+.BloodCampaignColor h6 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.BloodCampaignText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 0% 1% 0%;
+  padding: 0%;
+  height: 10%;
+  width: 100%;
+}
+
+.AdminText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.AdminText p {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+.AdminTime {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.AdminTime p {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+.MenuAndMap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 60%;
+  width: 100%;
+}
+
+.CampaignMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 30%;
+}
+
+.CampaignMenuText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 5%;
+  width: 100%;
+}
+
+.CampaignMenuText h6 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.CampaignMenuIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 25%;
+  width: 100%;
+}
+
+.CampaignMenuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 2% 0% 2%;
+  padding: 0%;
+  height: 100%;
+  width: 20%;
+}
+
+.CampaignMenuImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0% 2% 0% 2%;
+  padding: 0%;
+  height: 60%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.CampaignMenuImage:hover {
+  cursor: pointer;
+}
+
+.CampaignMenuIcon img {
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.MenuImageCount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0%;
+  padding: 0%;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.MenuImageCount p {
+  margin-top: 1rem;
+  font-size: 10px;
+  color: white;
+}
+
+.MenuItemName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 1% 0% 1% 0%;
+  height: 30%;
+  width: 100%;
+}
+
+.MenuItemName p {
+  margin-top: 1rem;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.CampaignStatistics {
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+  padding: 1% 0% 1% 0%;
+  height: 40%;
+  width: 100%;
+}
+
+.Chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.CampaignMap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 70%;
+  z-index: 0;
+}
+
+.SearchBar {
+  position: absolute;
+  top: 35px;
+  margin: 0%;
+  padding: 0%;
+  height: 11%;
+  width: 80%;
+  z-index: 1;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .HomeCampaignBox { width: 45%; }
+  .HomeCampaignBoxText { width: 40%; }
+  .HomeCampaignBoxText p { font-size: 8px; }
+  .SwitchBoxText { padding: 1%; width: 35%; }
+  .SwitchBoxText p { font-size: 8px; }
+  .HomeCampaignSwitch { width: 25%; }
+  .HomeCampaignProfileBar { width: 35%; }
+  .HomeCampaignUserName { width: 100%; }
+  .HomeCampaignName p { margin: 0rem; font-size: 12px; }
+  .HomeCampaignUserRate p { margin: 0rem; font-size: 10px; }
+  .HomeCampaignUserImage { width: 15%; }
+  .HomeCampaignUserImage img { height: 40px; width: 40px; }
+  .HomeCampaignUserProfile { width: 5%; }
+  .Campaign { height: 100px; }
+  .Chevron-circle-left { width: 10%; }
+  .Chevron-circle-right { width: 10%; }
+  .Chevron-circle { font-size: 15px; }
+  .BloodCampaign { margin: 1%; width: 25%; }
+  .BloodCampaignColor h6 { font-size: 8px; }
+  .AdminText p { font-size: 6px; }
+  .AdminTime p { font-size: 6px; }
+  .MenuAndMap { flex-direction: column; }
+  .CampaignMenu { width: 100%; }
+  .CampaignMenuText h6 { font-size: 12px; }
+  .CampaignMenuIcon { padding: 1%; }
+  .CampaignMenuImage img { height: 35px; width: 25px; }
+  .MenuImageCount p { font-size: 6px; }
+  .MenuItemName { height: 30px; }
+  .MenuItemName p { font-size: 8px; }
+  .CampaignStatistics { height: auto; }
+  .CampaignMap { width: 100%; }
+  .SearchBar { top: 5px; height: 10%; width: 95%; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .HomeCampaignBox { width: 45%; }
+  .HomeCampaignBoxText { width: 40%; }
+  .HomeCampaignBoxText p { font-size: 10px; }
+  .SwitchBoxText { padding: 1%; width: 35%; }
+  .SwitchBoxText p { font-size: 10px; }
+  .HomeCampaignSwitch { width: 25%; }
+  .HomeCampaignProfileBar { width: 35%; }
+  .HomeCampaignUserName { width: 100%; }
+  .HomeCampaignName p { margin: 0rem; font-size: 12px; }
+  .HomeCampaignUserRate p { margin: 0rem; font-size: 10px; }
+  .HomeCampaignUserImage { width: 15%; }
+  .HomeCampaignUserImage img { height: 40px; width: 40px; }
+  .HomeCampaignUserProfile { width: 5%; }
+  .Campaign { height: 100px; }
+  .Chevron-circle-left { width: 10%; }
+  .Chevron-circle-right { width: 10%; }
+  .Chevron-circle { font-size: 20px; }
+  .BloodCampaign { margin: 1%; width: 25%; }
+  .BloodCampaignColor h6 { font-size: 8px; }
+  .AdminText p { font-size: 6px; }
+  .AdminTime p { font-size: 6px; }
+  .MenuAndMap { flex-direction: column; }
+  .CampaignMenu { width: 100%; }
+  .CampaignMenuText h6 { font-size: 14px; }
+  .CampaignMenuItem { width: 15%; }
+  .CampaignMenuIcon { padding: 1%; }
+  .CampaignMenuImage img { height: 35px; width: 50px; }
+  .MenuImageCount p { font-size: 10px; }
+  .MenuItemName { height: 30px; }
+  .MenuItemName p { font-size: 12px; }
+  .CampaignMap { width: 100%; }
+  .SearchBar { top: 5px; height: 10%; width: 95%; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .HomeCampaignBox { width: 45%; }
+  .HomeCampaignBoxText { width: 40%; }
+  .HomeCampaignBoxText p { font-size: 12px; }
+  .SwitchBoxText { padding: 1%; width: 35%; }
+  .SwitchBoxText p { font-size: 12px; }
+  .HomeCampaignSwitch { width: 25%; }
+  .HomeCampaignProfileBar { width: 35%; }
+  .HomeCampaignUserName { width: 100%; }
+  .HomeCampaignName p { margin: 0rem; font-size: 12px; }
+  .HomeCampaignUserRate p { margin: 0rem; font-size: 10px; }
+  .HomeCampaignUserImage { width: 15%; }
+  .HomeCampaignUserImage img { height: 40px; width: 40px; }
+  .HomeCampaignUserProfile { width: 5%; }
+  .Campaign { height: 100px; }
+  .Chevron-circle-left { width: 10%; }
+  .Chevron-circle-right { width: 10%; }
+  .Chevron-circle { font-size: 20px; }
+  .BloodCampaign { margin: 1%; width: 25%; }
+  .BloodCampaignColor h6 { font-size: 8px; }
+  .AdminText p { font-size: 6px; }
+  .AdminTime p { font-size: 6px; }
+  .CampaignMenu { width: 40%; }
+  .CampaignMenuText h6 { font-size: 14px; }
+  .CampaignMenuItem { width: 20%; }
+  .MenuItemName p { font-size: 10px; }
+  .CampaignMap { width: 60%; }
+}

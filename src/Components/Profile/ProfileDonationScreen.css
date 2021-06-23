@@ -1,0 +1,650 @@
+.ProfileDonationScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.ProfileDonationHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 10%;
+  width: 100%;
+}
+
+.DonationReturn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.DonationReturnArrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 10%;
+}
+
+.LeftArrow {
+  color: #dc3545;
+}
+
+.LeftArrow:hover {
+  cursor: pointer;
+}
+
+.DonationReturnText {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 1% 0% 1%;
+  height: 100%;
+  width: auto;
+}
+
+.DonationReturnText p {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.DonationProfileBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.DonationUserName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 30%;
+}
+
+.DonationName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 50%;
+  width: 100%;
+}
+
+.DonationName p {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.DonationUserRate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 50%;
+  width: 100%;
+}
+
+.DonationUserRate p {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+.DonationUserImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 10%;
+}
+
+.DonationUserImage img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.DonationUserProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 5%;
+}
+
+.EllipsisV {
+  color: #dc3545;
+}
+
+.EllipsisV:hover {
+  cursor: pointer;
+}
+
+.DonationClinic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 0% 3% 0% 3%;
+  height: 20%;
+  width: 100%;
+}
+
+.Clinic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0% 2% 0% 2%;
+  padding: 0%;
+  height: 80%;
+  width: 25%;
+  border-radius: 10px;
+  border: solid lightgrey 1px;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+.ClinicIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+  padding: 0%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: solid lightgrey 1px;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+.Tint {
+  color: #dc3545;
+}
+
+.ClinicInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 80%;
+  width: 70%;
+}
+
+.ClinicHeadline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 40%;
+  width: 100%;
+}
+
+.ClinicName {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 0% 0% 0%;
+  height: 100%;
+  width: 80%;
+}
+
+.ClinicName h6 {
+  margin-bottom: 0rem;
+}
+
+.ClinicOptions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 20%;
+}
+
+.ClinicAddress {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 30%;
+  width: 100%;
+}
+
+.AddressIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 10%;
+  color: grey;
+}
+
+.AddressText {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 100%;
+  width: 90%;
+}
+
+.AddressText p {
+  margin-top: 1rem;
+  color: grey;
+  font-size: 12px;
+}
+
+.UserBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 70%;
+  width: 100%;
+}
+
+.UserHistory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.UserHistoryHeadline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 10%;
+  width: 100%;
+}
+
+.UserHistoryHeadline h5 {
+  margin-bottom: 0rem;
+  color: grey;
+}
+
+.UserHistoryDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin:  5% 0% 5% 0%;
+  padding: 5%;
+  height: 70%;
+  width: 80%;
+  border: solid lightgrey 1px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+.UserHistoryDescription h5 {
+  margin-bottom: 2rem;
+}
+
+.HospitalHistory {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 2% 0% 2% 0%;
+  height: 25%;
+  width: 100%;
+}
+
+.HistoryNumber {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+  padding: 5%;
+  height: 50px;
+  width: 50px;
+  border: solid #dc3545 1px;
+  border-radius: 50%;
+  background-color: #dc3545;
+}
+
+.HistoryNumber p {
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.HospitalName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 100%;
+  width: 50%;
+}
+
+.HospitalName p {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: bold;
+  color: grey;
+}
+
+.DonatedTimes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 100%;
+  width: 30%;
+}
+
+.DonatedTimes p {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: bold;
+  color: grey;
+}
+
+.UserReviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: auto;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 50%;
+}
+
+.UserReviewsHeadline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+  height: 10%;
+  width: 100%;
+}
+
+.UserReviewsHeadline h5 {
+  margin-bottom: 0rem;
+  color: grey;
+}
+
+.ReviewBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3% 0% 3% 0%;
+  padding: 0% 5% 0% 5%;
+  height: 35%;
+  width: 90%;
+  border: solid lightgrey 1px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+.ReviewBoxUpper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 2% 0% 0% 0%;
+  padding: 0%;
+  height: 30%;
+  width: 95%;
+}
+
+.ReviewBoxUpperImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 20%;
+}
+
+.ReviewBoxUpperImage img {
+  height: 80%;
+  width: 60%;
+  border-radius: 50%;
+}
+
+.ReviewBoxUpperUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 80%;
+}
+
+.ReviewBoxUserName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 50%;
+  width: 100%;
+}
+
+.ReviewBoxUserName p {
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.ReviewBoxUserDate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+  height: 50%;
+  width: 100%;
+}
+
+.ReviewBoxUserDate p {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+.ReviewBoxMiddle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 0% 0% 0%;
+  padding: 0%;
+  height: 35%;
+  width: 95%;
+}
+
+.ReviewBoxMiddle p {
+  margin-top: 1rem;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.ReviewBoxLower {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 2% 0% 2% 0%;
+  padding: 0%;
+  height: 15%;
+  width: 95%;
+}
+
+.LikeBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 15%;
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.LikeBox p {
+  margin-top: 1rem;
+  font-size: 12px;
+  margin: 0%;
+  padding: 0% 5% 0% 5%;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .DonationReturn { width: 35%; }
+  .DonationReturnArrow { width: 20%; }
+  .DonationReturnText { width: 80%; }
+  .DonationReturnText p { font-size: 12px; }
+  .DonationProfileBar { width: 35%; }
+  .DonationUserName { height: 50px; width: 100%; }
+  .DonationName p { font-size: 12px; }
+  .DonationUserRate p { font-size: 10px; }
+  .DonationUserImage { width: 20%; }
+  .Clinic { margin: 2%; height: 80px; width: 100%; overflow-x: auto; }
+  .UserBox { flex-direction: column; }
+  .UserHistory { width: 100%; }
+  .UserHistory h5 { font-size: 16px; }
+  .UserHistory p { font-size: 12px; }
+  .UserReviews { width: 100%; }
+  .UserReviews h5 { font-size: 16px; }
+  .UserReviews p { font-size: 12px; }
+  .ReviewBoxUpperImage { margin: 1%; height: 100%; width: 40%; }
+  .ReviewBoxUpperImage img { height: 100%; width: 100%; }
+  .ReviewBoxUpperUser { height: 100%; width: 60%; }
+  .LikeBox { width: 50%; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .DonationReturn { width: 35%; }
+  .DonationReturnArrow { width: 20%; }
+  .DonationReturnText { width: 80%; }
+  .DonationReturnText p { font-size: 12px; }
+  .DonationProfileBar { width: 35%; }
+  .DonationUserName { height: 50px; width: 100%; }
+  .DonationName p { font-size: 12px; }
+  .DonationUserRate p { font-size: 10px; }
+  .DonationUserImage { width: 20%; }
+  .Clinic { margin: 2%; height: 80px; width: 60%; overflow-x: auto; }
+  .UserBox { flex-direction: column; }
+  .UserHistory { width: 100%; }
+  .UserHistory h5 { font-size: 18px; }
+  .UserHistory p { font-size: 14px; }
+  .UserReviews { width: 100%; }
+  .UserReviews h5 { font-size: 18px; }
+  .UserReviews p { font-size: 14px; }
+  .ReviewBoxUpperImage { margin: 1%; height: 100%; width: 40%; }
+  .ReviewBoxUpperImage img { height: 100%; width: 100%; }
+  .ReviewBoxUpperUser { height: 100%; width: 60%; }
+  .LikeBox { width: 50%; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .DonationReturn { width: 40%; }
+  .DonationReturnArrow { width: 20%; }
+  .DonationReturnText { width: 80%; }
+  .DonationReturnText p { font-size: 12px; }
+  .DonationProfileBar { width: 40%; }
+  .DonationUserName { height: 50px; width: 100%; }
+  .DonationName p { font-size: 12px; }
+  .DonationUserRate p { font-size: 10px; }
+  .DonationUserImage { width: 15%; }
+  .Clinic { margin: 1%; height: 80px; width: 45%; overflow: auto; }
+  .AddressText p { font-size: 10px; }
+  .UserHistory { width: 100%; }
+  .UserHistory h5 { font-size: 16px; }
+  .UserHistory p { font-size: 12px; }
+  .UserHistoryDescription { height: 80%; width: 90%; }
+  .UserReviews { width: 100%; }
+  .UserReviews h5 { font-size: 16px; }
+  .UserReviews p { font-size: 12px; }
+  .UserReviewsHeadline { height: 10%; }
+  .ReviewBox { height: 90%; }
+  .ReviewBoxUpper { height: 20%; }
+  .ReviewBoxUpperImage { margin: 1%; height: 100%; width: 50%; }
+  .ReviewBoxUpperImage img { height: 100%; width: 100%; }
+  .ReviewBoxUpperUser { height: 100%; width: 60%; }
+  .ReviewBoxMiddle { height: 40%; }
+  .ReviewBoxLower { height: 10%; }
+  .LikeBox { width: 50%; }
+}

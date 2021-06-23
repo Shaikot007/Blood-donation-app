@@ -1,0 +1,80 @@
+.DonorsBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 1%;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.CardBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
+  padding: 0%;
+  height: auto;
+  width: 25%;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.CardSubtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.CardBox Button {
+  margin: 0%;
+  padding: 0%;
+  height: auto;
+  width: 100%;
+  background-color: #dc3545;
+  border: solid 1px #dc3545;
+}
+
+.CardBox Button:hover {
+  background-color: #dc3545;
+  border: solid 1px #dc3545;
+}
+
+.CardBox Button:focus {
+  background-color: #dc3545;
+  border: solid 1px #dc3545;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .CardBox { width: 100%; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .CardBox { width: 40%; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .CardBox { width: 40%; }
+}

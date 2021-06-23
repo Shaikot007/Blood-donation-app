@@ -1,0 +1,208 @@
+.SignIn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0%;
+  padding: 0%;
+}
+
+.Blood_Donation_Image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+}
+
+.Blood_Donation_Image img {
+  height: 200px;
+  width: 250px;
+}
+
+.LogIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 5% 15% 5% 15%;
+  height: 100%;
+  width: 50%;
+}
+
+.SignInHeadline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+  width: 100%;
+}
+
+.EmailOrUsername {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 10%;
+  width: 100%;
+  margin: 2% 0% 0% 0%;
+  padding: 0% 2% 0% 2%;
+}
+
+.EmailOrUsername p {
+  margin-top: 1rem;
+  font-size: 16px;
+  color: grey;
+}
+
+.InputField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 10%;
+  width: 100%;
+  margin: 0%;
+  padding: 0% 2% 0% 2%;
+}
+
+.InputField Input {
+  height: 90%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 1px 1px lightgrey;
+}
+
+.Password {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 10%;
+  width: 100%;
+  margin: 2% 0% 0% 0%;
+  padding: 0% 2% 0% 2%;
+}
+
+.Password p {
+  margin-top: 1rem;
+  font-size: 16px;
+  color: grey;
+}
+
+.LogInButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  margin: 5% 0% 5% 0%;
+  padding: 0%;
+}
+
+.LogInButton Button {
+  height: 50px;
+  width: 250px;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.ForgetPassword {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 5%;
+  width: auto;
+  margin: 2% 0% 2% 0%;
+  padding: 0%;
+}
+
+.ForgetPassword p {
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+.ForgetPassword p a {
+  text-decoration: none;
+  color: grey;
+}
+
+.ForgetPassword p a:hover {
+  color: #dc3545;
+}
+
+.SignUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 5%;
+  width: 100%;
+  margin: 2% 0% 2% 0%;
+  padding: 0% 2% 0% 2%;
+}
+
+.SignUp p {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: grey;
+}
+
+.SignUp a {
+  text-decoration: none;
+  color: black;
+}
+
+.SignUp a:hover {
+  text-decoration: none;
+}
+
+.SignUp p strong:hover {
+  cursor: pointer;
+  color: #dc3545;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .SignIn { flex-direction: column; }
+  .LogIn { padding: 1%; }
+  .Blood_Donation_Image img { height: 100px; width: 100px; }
+  .SignInHeadline h4 { font-size: 16px; }
+  .EmailOrUsername p { font-size: 12px; }
+  .InputField Input { padding: 0% 5% 0% 5%; font-size: 12px; }
+  .Password p { font-size: 12px; }
+  .LogInButton Button { height: auto; width: 125px; font-size: 14px; }
+  .ForgetPassword p { font-size: 12px; }
+  .SignUp { height: 10%; }
+  .SignUp p { font-size: 12px; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .LogIn { padding: 1%; }
+  .Blood_Donation_Image img { height: 100px; width: 150px; }
+  .SignInHeadline h4 { font-size: 18px; }
+  .EmailOrUsername p { font-size: 14px; }
+  .InputField Input { padding: 0% 5% 0% 5%; font-size: 14px; }
+  .Password p { font-size: 14px; }
+  .LogInButton Button { height: auto; width: 200px; font-size: 14px; }
+  .ForgetPassword p { font-size: 14px; }
+  .SignUp p { font-size: 14px; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .LogIn { padding: 1%; }
+  .Blood_Donation_Image img { height: 100px; width: 150px; }
+  .SignInHeadline h4 { font-size: 18px; }
+  .EmailOrUsername p { font-size: 14px; }
+  .InputField Input { padding: 0% 5% 0% 5%; font-size: 14px; }
+  .Password p { font-size: 14px; }
+  .LogInButton Button { height: auto; width: 200px; font-size: 14px; }
+  .ForgetPassword p { font-size: 14px; }
+  .SignUp p { font-size: 14px; }
+}

@@ -1,0 +1,56 @@
+.Welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.BloodDonationImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75%;
+  width: 100%;
+}
+
+.BloodDonationImage img {
+  height: 200px;
+  width: 250px;
+}
+
+.StartButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0%;
+  padding: 0%;
+  height: 25%;
+  width: 100%;
+}
+
+.StartButton Button {
+  height: 60px;
+  width: 250px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  .BloodDonationImage img { height: 150px; width: 200px; }
+  .StartButton Button { height: 40px; width: 200px; font-size: 16px; }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .BloodDonationImage img { height: 150px; width: 200px; }
+  .StartButton Button { height: 40px; width: 200px; font-size: 16px; }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .BloodDonationImage img { height: 150px; width: 200px; }
+  .StartButton Button { height: 40px; width: 200px; font-size: 16px; }
+}
